@@ -124,7 +124,7 @@ def main():
     pygame.init()
     pygame.mixer.init()
     screen = pygame.display.set_mode((core.WIDTH, core.HEIGHT))
-    pygame.display.set_caption('Game Animation')
+    pygame.display.set_caption('By Rizwan.AR')
 
     while True:
         score_left, score_right = runDemo(screen)
